@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "nome_do_eventos",
+  "info": {
+    "singularName": "nome-do-evento",
+    "pluralName": "nome-do-eventos",
+    "displayName": "nome do evento"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "descricao": {
+      "type": "blocks"
+    },
+    "date": {
+      "type": "datetime"
+    },
+    "imagem": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "local": {
+      "type": "string"
+    }
+  }
+}

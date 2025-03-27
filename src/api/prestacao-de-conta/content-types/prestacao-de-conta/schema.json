@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "prestacao_de_contas",
+  "info": {
+    "singularName": "prestacao-de-conta",
+    "pluralName": "prestacao-de-contas",
+    "displayName": "Prestação de contas"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "titulo": {
+      "type": "string"
+    },
+    "descricao": {
+      "type": "blocks"
+    },
+    "arquivoPDF": {
+      "allowedTypes": [
+        "files"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "data": {
+      "type": "datetime"
+    }
+  }
+}
